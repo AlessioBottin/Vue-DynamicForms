@@ -1,0 +1,80 @@
+/* Dynamic Form  */
+.dynamic-form__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dynamic-form__field {
+    margin: 20px 0;
+}
+
+.dynamic-form__submit {
+    border-radius: 10px;
+    color: green;
+    padding: 10px;
+    outline: none;
+    border: 2px solid green;
+}
+
+.dynamic-form__fieldset {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.dynamic-form__legend {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Errors  */
+.dynamic-form__error {
+    color: red;
+    margin-top: 5px;
+}
+
+/* Base Input  */
+.base-input__label {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.base-input__input {
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Base Select  */
+.base-select__select {
+    color: green;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+/* Base Checkbox  */
+.base-checkbox__input {
+    cursor: pointer;
+}
+
+/* Base Radio  */
+.base-radio--vertical {
+    margin-bottom: 20px;
+}
+
+.base-radio--horizontal {
+    margin-right: 10px;
+}
+
+.base-radio__input {
+    background-color: red;
+}
+
+.base-radio__title {
+    margin-bottom: 20px;
+    color: blue;
+}
